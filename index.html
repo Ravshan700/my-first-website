@@ -1,16 +1,222 @@
+
 <!DOCTYPE html>
 <html lang="uz">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mening saytim</title>
-    <link rel="stylesheet" herf="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strawberry Cream Cheesecake — Tastebite</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <h1>Salom 👋</h1>
-    <p>Bu mening birinchi web loyiham.</p>
-     <script src="script.js"></script>
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="logo">Tastebite</a>
+    <nav class="main-nav">
+      <a href="#" class="dropdown">Homepage <span class="caret">▾</span></a>
+      <a href="#" class="dropdown active">Recipe Page <span class="caret">▾</span></a>
+      <a href="#" class="dropdown">Pages <span class="caret">▾</span></a>
+      <a href="#">Buy</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <img class="avatar" src="https://i.pravatar.cc/64?img=47" alt="Foydalanuvchi avatari">
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- RECIPE HERO -->
+  <section class="recipe-hero container">
+    <p class="stat"><span class="stat-icon">↗</span> 85% would make this again</p>
+
+    <div class="title-row">
+      <h1>Strawberry Cream Cheesecake</h1>
+      <div class="title-actions">
+        <button class="icon-btn" aria-label="Share"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg></button>
+        <button class="icon-btn" aria-label="Saqlash"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></button>
+      </div>
+    </div>
+
+    <div class="meta-row">
+      <img class="author-avatar" src="https://i.pravatar.cc/40?img=12" alt="Tricia Albert">
+      <span class="author-name">Tricia Albert</span>
+      <span class="meta-sep">•</span>
+      <span class="meta-item">📅 Yesterday</span>
+      <span class="meta-sep">•</span>
+      <span class="meta-item">💬 25</span>
+      <span class="meta-sep">•</span>
+      <span class="stars">★★★★★</span>
+    </div>
+
+    <p class="recipe-desc">One thing I learned living in the Canarsie section of Brooklyn, NY was how to cook a good Italian meal. Here is a recipe I created after having this dish in a restaurant. Enjoy!</p>
+
+    <div class="hero-image">
+      <div class="play-btn" aria-hidden="true">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="6 3 20 12 6 21"/></svg>
+      </div>
+    </div>
+
+    <div class="recipe-meta-bar">
+      <div class="meta-box">
+        <span class="meta-label">PREP TIME</span>
+        <span class="meta-value">15 MIN</span>
+      </div>
+      <div class="meta-box">
+        <span class="meta-label">COOK TIME</span>
+        <span class="meta-value">15 MIN</span>
+      </div>
+      <div class="meta-box">
+        <span class="meta-label">SERVINGS</span>
+        <span class="meta-value">4 PEOPLE <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></span>
+      </div>
+      <button class="icon-btn print-btn" aria-label="Chop etish">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- INGREDIENTS / INSTRUCTIONS -->
+  <section class="recipe-body container">
+    <div class="ingredients-col">
+      <h2>Ingredients</h2>
+
+      <h3 class="sub-heading">For the crust</h3>
+      <ul class="ingredient-list">
+        <li><span class="check"></span> 400g graham crackers</li>
+        <li><span class="check"></span> 150g unsalted butters, melted</li>
+      </ul>
+
+      <h3 class="sub-heading">For the cheescake</h3>
+      <ul class="ingredient-list">
+        <li class="done"><span class="check checked">✓</span> <s>300g marshmallows</s></li>
+        <li><span class="check"></span> 175g unsalted butter, melted</li>
+        <li><span class="check"></span> 500g Philadelphia cream cheese, softened</li>
+        <li><span class="check"></span> 250ml thickened/whipping cream, warm</li>
+        <li><span class="check"></span> 3 tbsp powdered gelatin + 3 tbsp water</li>
+        <li><span class="check"></span> 5 drops purple food gel</li>
+        <li><span class="check"></span> 3 drops blue food gel</li>
+      </ul>
+
+      <h2 class="nutrition-heading">Nutrition Facts</h2>
+      <table class="nutrition-table">
+        <tr><td>Calories</td><td>219.9</td></tr>
+        <tr><td>Total Fat</td><td>10.7 g</td></tr>
+        <tr><td>Saturated Fat</td><td>2.2 g</td></tr>
+        <tr><td>Cholesterol</td><td>37.4 mg</td></tr>
+        <tr><td>Sodium</td><td>120.3 mg</td></tr>
+        <tr><td>Potassium</td><td>32.8 mg</td></tr>
+        <tr><td>Total Carbohydrate</td><td>22.3 g</td></tr>
+        <tr><td>Sugars</td><td>8.4 g</td></tr>
+        <tr><td>Protein</td><td>7.9 g</td></tr>
+      </table>
+    </div>
+
+    <div class="instructions-col">
+      <h2>Instructions</h2>
+      <ol class="instruction-list">
+        <li><span class="step-num">1</span><p>To prepare crust add graham crackers to a food processor and process until you reach fine crumbs. Add melted butter and pulse 3-4 times to coat crumbs with butter.</p></li>
+        <li><span class="step-num">2</span><p>Pour mixture into a 20cm (8") tart tin. Use the back of a spoon to firmly press the mixture out across the bottom and sides of the tart tin. Chill for 30 min.</p></li>
+        <li><span class="step-num">3</span><p>Begin by adding the marshmallows and melted butter into a microwave safe bowl. Microwave for 30 seconds and mix to combine. Set aside.</p></li>
+        <li><span class="step-num">4</span><p>Next, add the gelatine and water to a small mixing bowl and mix to combine. Microwave for 30 seconds.</p></li>
+        <li><span class="step-num">5</span><p>Add the cream cheese to the marshmallow mixture and use a hand mixer or stand mixer fitted with a paddle attachment to mix until smooth.</p></li>
+        <li><span class="step-num">6</span><p>Add the warm cream and melted gelatin mixture and mix until well combined.</p></li>
+        <li><span class="step-num">7</span><p>Add 1/3 of the mixture to a mixing bowl, add purple food gel and mix until well combined. Colour 1/3 of the mixture blue. Split the remaining mixture into two mixing bowls, colour one pink and leave the other white.</p></li>
+        <li><span class="step-num">8</span><p>Pour half the purple cheesecake mixture into the chill tart crust. Add half the blue and then add the remaining purple and blue in the tart tin. Use a spoon to drizzle some pink cheesecake on top. Use a skewer or the end of a spoon to swirl the pink. Add some small dots of the plain cheesecake mixture to create stars and then sprinkle some more starts on top before chilling for 2 hours.</p></li>
+        <li><span class="step-num">9</span><p>Slice with a knife to serve.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  
+  <section class="feedback container">
+    <h2>Already made this?</h2>
+    <button class="btn-outline">Share your feedback</button>
+    <hr class="accent-rule">
+  </section>
+
+  <!-- COMMENTS -->
+  <section class="comments container">
+    <h2>Comments <span class="count">(25)</span></h2>
+
+    <div class="comment-list" id="commentList">
+    </div>
+
+    <button class="btn-outline load-more" id="loadMoreBtn">Load 25 more comments</button>
+
+    <div class="write-comment">
+      <h3>Write a comment</h3>
+      <p class="login-link"><a href="#">Login</a> to post a comment</p>
+      <textarea placeholder="@Jelanee Uwaezuoke Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food truck sriracha cornhole single-origin coffee church-key roof party. 🔥"></textarea>
+      <button class="btn-primary" id="postCommentBtn">Post comment</button>
+    </div>
+  </section>
+
+  
+  <section class="related container">
+    <h2>You might also like</h2>
+    <div class="related-grid" id="relatedGrid">
+      <!-- cards injected by JS -->
+    </div>
+  </section>
+
+  
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <h2>Deliciousness<br>to your inbox</h2>
+      <p>Enjoy weekly hand picked recipes and recommendations</p>
+      <form class="join-form" id="joinForm">
+        <input type="email" placeholder="Email Address" required>
+        <button type="submit">JOIN</button>
+      </form>
+      <p class="terms">By joining our newsletter you agree to our <a href="#">Terms and Conditions</a></p>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <p class="logo">Tastebite</p>
+      <p class="footer-quote">"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment"</p>
+    </div>
+    <div class="footer-col">
+      <h4>Tastebite</h4>
+      <a href="#">About us</a>
+      <a href="#">Careers</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Feedback</a>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <a href="#">Terms</a>
+      <a href="#">Conditions</a>
+      <a href="#">Cookies</a>
+      <a href="#">Copyright</a>
+    </div>
+    <div class="footer-col">
+      <h4>Follow</h4>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+      <a href="#">Youtube</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2020 Tastebite - All rights reserved</p>
+    <div class="social-icons">
+      <a href="#" aria-label="Facebook">f</a>
+      <a href="#" aria-label="Twitter">𝕏</a>
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="Youtube">▶</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
