@@ -1,0 +1,207 @@
+:root {
+    --color-black-000: #000000;
+    --color-black-111: #111111;
+    --text-color:#E8E8E8;
+    --color-white-fff: #ffffff;
+    --stars-color:#FF642F;
+    --section-bg-color:#FFD7C9;
+    --color-666:#666666;
+    --br-color-eee:#eeeeee;
+
+    --br-radius: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-pg {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    border-top: 2px solid var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.main-menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.main-menu ul li {
+    list-style: none;
+}
+
+.main-menu ul li a {
+    color: var(--color-black-000);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.search-svg {
+    cursor: pointer;
+}
+
+.menu-svg {
+    cursor: pointer;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1.5px solid var(--br-color-eee);
+    overflow: hidden;
+    border-radius: var(--br-radius);
+}
+
+.rating {
+    text-align: start;
+    padding-left: 20px;
+    color: var(--stars-color);
+    font-size: 14px;
+}
+
+.card-title {
+    text-align: start;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.newsletter {
+    display: flex;
+    background-color: var(--section-bg-color);
+    border-radius: var(--br-radius);
+    padding: 50px 20px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.newsletter h2 {
+    width: 400px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.newsletter-form input {
+    height: 40px;
+    margin: auto;
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    outline: none;
+}
+
+.newsletter-form button {
+    padding: 8px 24px;
+    height: 38px;
+    text-align: center;
+    margin: auto;
+    background-color: var(--stars-color);
+    color: var(--color-white-fff);
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color var(--transition-fast);
+}
+
+.latest h1 {
+    text-align: start;
+    margin-bottom: 50px;
+}
+
+.recipes {
+    text-align: start;
+    margin-bottom: 50px;
+}
+
+.latest {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.pumpkin {
+    border: 2px solid var(--text-color);
+    overflow: hidden;
+    border-radius: var(--br-radius);
+}
+
+.stars {
+    color: var(--stars-color);
+    margin-top: 15px;
+    text-align: start;
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.pumpkin-element h2 {
+    text-align: start;
+    padding-left: 30px;
+}
+
+.pumpkin-element p {
+    width: 70%;
+    text-align: start;
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+.pumpkin-bottom {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.pumpkin-left-element {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 30px;
+    color: var(--color-666);
+}
+
+.pumpkin-right-element {
+    display: flex;
+    gap: 15px;
+    padding-right: 30px;
+}
+
+.pumpkin-right-element div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--color-666);
+}
